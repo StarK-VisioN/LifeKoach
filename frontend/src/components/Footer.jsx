@@ -126,7 +126,7 @@ const Footer = () => {
                 <li className="flex items-center">
                   <Envelope size={14} className="text-blue-500 mr-3" />
                   <span className="text-gray-300 text-xs">
-                    contact@lifekoach.com
+                    lifekoach.com
                   </span>
                 </li>
               </ul>
@@ -170,7 +170,7 @@ const Footer = () => {
                 <li className="flex items-center">
                   <Envelope size={16} className="text-blue-500 mr-3" />
                   <span className="text-gray-300 text-sm">
-                    contact@lifekoach.com
+                    lifekoach.com
                   </span>
                 </li>
               </ul>

@@ -69,7 +69,7 @@ const HeroSection = ({ onApplyClick }) => {
               {/* CTA Button - Only call button */}
               <div className="mt-2 transition-all duration-500 ease-in-out max-h-[700px]:mt-3 max-h-[600px]:mt-2 max-h-[500px]:mt-1.5 max-h-[450px]:mt-1">
                 <a
-                  href="tel:7276896735"
+                  href="tel:9310243054"
                   className="cursor-pointer bg-transparent border-none p-0 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:-translate-y-0.5 relative z-10 inline-block"
                 >
                   <img
@@ -131,7 +131,7 @@ const HeroSection = ({ onApplyClick }) => {
             {/* CTA Button - Only call button */}
             <div className="mt-6 transition-all duration-500 ease-in-out max-h-[700px]:mt-4 max-h-[600px]:mt-3 max-h-[500px]:mt-2 max-h-[450px]:mt-1.5">
               <a
-                href="tel:7276896735"
+                href="tel:9310243054"
                 className="cursor-pointer bg-transparent border-none p-0 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:-translate-y-0.5 relative z-10 inline-block"
               >
                 <img
@@ -210,7 +210,7 @@ const HeroSection = ({ onApplyClick }) => {
                   {/* CTA Button - Only call button */}
                   <div className="mt-4 transition-all duration-500 ease-in-out max-h-[700px]:mt-2 max-h-[600px]:mt-1 max-h-[500px]:mt-0.5 max-h-[450px]:mt-0.5">
                     <a
-                      href="tel:7276896735"
+                      href="tel:9310243054"
                       className="cursor-pointer bg-transparent border-none p-0 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:-translate-y-0.5 relative z-10 inline-block"
                     >
                       <img
@@ -295,7 +295,7 @@ const HeroSection = ({ onApplyClick }) => {
                   {/* CTA Button - Only call button */}
                   <div className="mt-4 md:mt-6 transition-all duration-500 ease-in-out max-h-[700px]:mt-2 max-h-[600px]:mt-1 max-h-[500px]:mt-0.5 max-h-[450px]:mt-0.5">
                     <a
-                      href="tel:7276896735"
+                      href="tel:9310243054"
                       className="cursor-pointer bg-transparent border-none p-0 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:-translate-y-0.5 relative z-10 inline-block"
                     >
                       <img
