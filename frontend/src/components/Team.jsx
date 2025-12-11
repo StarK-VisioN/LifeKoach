@@ -105,7 +105,7 @@ const Team = () => {
   };
 
   return (
-    <div className="py-5 pb-20 bg-[#bfe6f2] px-6 md:px-12 lg:px-38">
+    <div className="py-5 pb-20 px-6 md:px-12 lg:px-38">
       <div className="container mx-auto">
 
         {/* Heading Section */}
@@ -116,7 +116,7 @@ const Team = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-2 font-zalando">
                 MEET OUR TEAM
               </h2>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-900">
                 Dedicated professionals driving our success
               </p>
             </div>
@@ -158,7 +158,7 @@ const Team = () => {
                       <div className="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mb-3">
                         {member.position}
                       </div>
-                      <p className="text-gray-600 text-sm md:text-base max-w-xs">
+                      <p className="text-black text-sm md:text-base max-w-xs">
                         {member.description}
                       </p>
                     </div>
@@ -229,7 +229,7 @@ const Team = () => {
                 <div className="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mb-3">
                   {member.position}
                 </div>
-                <p className="text-gray-600 text-sm md:text-base max-w-xs">
+                <p className="text-black text-sm md:text-base max-w-xs">
                   {member.description}
                 </p>
               </div>

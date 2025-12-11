@@ -96,7 +96,7 @@ const JoyfulLife = () => {
   };
 
   return (
-    <div className="py-30 bg-[#bfe6f2] px-6 md:px-12 lg:px-38">
+    <div className="py-30  px-6 md:px-12 lg:px-38">
       <div className="container mx-auto">
 
         {/* Heading Section */}
@@ -109,7 +109,7 @@ const JoyfulLife = () => {
 
         {/* Content Section */}
         <div className="max-w-4xl mb-16">
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-gray-900 leading-relaxed">
             If you are stuck in life and don't know what to do, and you're totally blank without anyone to support you, 
             LIFEKOACH is there for you. We have great mentors to guide you on the right path to success. Our mentors guide 
             you in every field, make your problems easier, see your potential, and support you throughout your journey.

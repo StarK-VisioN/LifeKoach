@@ -102,7 +102,7 @@ const Feedback = () => {
   };
 
   return (
-    <div className="py-5 bg-[#bfe6f2] px-6 md:px-12 lg:px-38">
+    <div className="py-5 px-6 md:px-12 lg:px-38">
       <div className="container mx-auto">
 
         {/* Heading Section */}
@@ -117,7 +117,7 @@ const Feedback = () => {
 
         {/* Introduction Text */}
         <div className="max-w-3xl mb-15">
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-gray-900 leading-relaxed">
             Career guidance is an essential service that helps individuals understand their career options and make informed decisions. Through specialized career guidance programs, participants gain clarity about their career paths and learn how to overcome obstacles they might face in the professional world.
           </p>
         </div>

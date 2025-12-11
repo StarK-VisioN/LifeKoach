@@ -93,7 +93,7 @@ const Revives = () => {
   };
 
   return (
-    <div className="py-30 bg-[#bfe6f2] px-6 md:px-12 lg:px-30">
+    <div className="py-30  px-6 md:px-12 lg:px-30">
       <div className="container mx-auto">
 
         {/* Heading Section */}

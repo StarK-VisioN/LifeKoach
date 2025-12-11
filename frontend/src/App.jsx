@@ -106,18 +106,23 @@ const App = () => {
       {/* Revives + Feedback visible only on home page */}
       {location.pathname === "/" && (
         <>
-          <div ref={revivesRef}>
+          <div className="bg-gradient-to-br from-green-900 to-green-50" ref={revivesRef}>
             <Revives />
           </div>
+          <div  className="bg-gradient-to-bl from-green-50 to-green-900">
           <Feedback />
+          </div>
+          <div className="bg-gradient-to-br from-green-900 to-green-50">
           <JoyfulLife />
-          <div ref={teamRef}>
+          </div>
+          <div className="bg-gradient-to-bl from-green-50 to-green-900" ref={teamRef}>
             <Team />
           </div>
           <div ref={contactRef}>
             <Contact />
           </div>
           <Footer />
+        
         </>
       )}
 

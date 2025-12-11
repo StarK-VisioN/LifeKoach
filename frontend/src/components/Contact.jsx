@@ -114,7 +114,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-800">Call Us</h4>
-                  <p className="text-gray-600">+91 72768 96735</p>
+                  <p className="text-gray-600">+91 93102 43054</p>
                 </div>
               </div>
               
@@ -124,7 +124,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-800">Visit Us</h4>
-                  <p className="text-gray-600">123, Business Park, Mumbai, India</p>
+                  <p className="text-gray-600">Faridabad, jawahar colony, gali no 5, house no 1751/2</p>
                 </div>
               </div>
             </div>
