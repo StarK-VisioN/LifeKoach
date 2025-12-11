@@ -135,19 +135,19 @@ const Feedback = () => {
                   key={benefit.id}
                   className="w-full flex-shrink-0 px-4"
                 >
-                  <div className="bg-gray-50 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
+                  <div className="bg-green-900 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
                     {/* Icon */}
                     <div className="mb-6 flex items-center justify-center w-20 h-20 rounded-full bg-white shadow-md group-hover:shadow-lg transition-shadow duration-300 mx-auto">
                       {benefit.icon}
                     </div>
                     
                     {/* Title */}
-                    <h3 className="text-xl font-bold mb-4 text-gray-800 group-hover:text-blue-600 transition-colors duration-300 text-center">
+                    <h3 className="text-xl font-bold mb-4 text-white group-hover:text-blue-600 transition-colors duration-300 text-center">
                       {benefit.title}
                     </h3>
                     
                     {/* Description */}
-                    <p className="text-gray-600 leading-relaxed text-center">
+                    <p className="text-white leading-relaxed text-center">
                       {benefit.description}
                     </p>
                   </div>
@@ -194,7 +194,7 @@ const Feedback = () => {
           {benefits.map((benefit) => (
             <div
               key={benefit.id}
-              className="bg-gray-50 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+              className="bg-green-900 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
             >
               {/* Icon */}
               <div className="mb-6 flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-md group-hover:shadow-lg transition-shadow duration-300">
@@ -202,12 +202,12 @@ const Feedback = () => {
               </div>
               
               {/* Title */}
-              <h3 className="text-xl font-bold mb-4 text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+              <h3 className="text-xl font-bold mb-4 text-white group-hover:text-gray-100 transition-colors duration-300">
                 {benefit.title}
               </h3>
               
               {/* Description */}
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-white leading-relaxed">
                 {benefit.description}
               </p>
             </div>

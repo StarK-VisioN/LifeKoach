@@ -121,7 +121,7 @@ const Revives = () => {
                 >
                   {/* Circular Image - Larger size */}
                   <div className="relative mb-6">
-                    <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-xl transition-all duration-300 group-hover:shadow-2xl group-hover:scale-105">
+                    <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-green-900 shadow-xl transition-all duration-300 group-hover:shadow-2xl group-hover:scale-105">
                       <img
                         src={problem.image}
                         alt={problem.name}
@@ -129,11 +129,11 @@ const Revives = () => {
                       />
                     </div>
                     {/* Decorative ring */}
-                    <div className="absolute inset-0 rounded-full border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 rounded-full border-2 border-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                   
                   {/* Problem Name - Larger text */}
-                  <h3 className="text-2xl font-bold text-gray-800 text-center transition-colors duration-300 group-hover:text-blue-600">
+                  <h3 className="text-2xl font-bold text-green-900 text-center transition-colors duration-300 group-hover:text-green-600">
                     {problem.name}
                   </h3>
                 </div>
@@ -183,7 +183,7 @@ const Revives = () => {
             >
               {/* Circular Image */}
               <div className="relative mb-3 sm:mb-4">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-55 md:h-55 rounded-full overflow-hidden border-4 border-white shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-55 md:h-55 rounded-full overflow-hidden border-4 border-green-500 shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
                   <img
                     src={problem.image}
                     alt={problem.name}
@@ -191,11 +191,11 @@ const Revives = () => {
                   />
                 </div>
                 {/* Decorative ring */}
-                <div className="absolute inset-0 rounded-full border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-full border-2 border-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               
               {/* Problem Name */}
-              <h3 className="text-sm sm:text-base md:text-lg md:text-xl font-semibold text-gray-800 text-center transition-colors duration-300 group-hover:text-blue-600">
+              <h3 className="text-sm sm:text-base md:text-lg md:text-xl font-semibold text-green-900 text-center transition-colors duration-300 group-hover:text-green-600">
                 {problem.name}
               </h3>
             </div>

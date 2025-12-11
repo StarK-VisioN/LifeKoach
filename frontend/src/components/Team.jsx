@@ -1,7 +1,7 @@
 // Team.jsx
 import React, { useState, useEffect, useRef } from 'react';
 import { CaretLeft, CaretRight } from '@phosphor-icons/react';
-import teamMember1 from '../assets/team_mem1.png';
+import teamMember1 from '../assets/team_mem1.jpg';
 import teamMember2 from '../assets/team_mem2.jpg';
 import teamMember3 from '../assets/team_mem2.jpg';
 import teamMember4 from '../assets/team_mem2.jpg';
@@ -139,7 +139,7 @@ const Team = () => {
                   <div className="flex flex-col items-center group">
                     {/* Circular Image */}
                     <div className="relative mb-6">
-                      <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-white shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                      <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-green-900 shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
                         <img
                           src={member.image}
                           alt={member.name}
@@ -147,7 +147,7 @@ const Team = () => {
                         />
                       </div>
                       {/* Decorative ring */}
-                      <div className="absolute inset-0 rounded-full border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute inset-0 rounded-full border-2 border-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
                     
                     {/* Team Member Details */}
@@ -210,7 +210,7 @@ const Team = () => {
             >
               {/* Circular Image */}
               <div className="relative mb-6">
-                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
+                <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-green-500 shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -218,12 +218,12 @@ const Team = () => {
                   />
                 </div>
                 {/* Decorative ring */}
-                <div className="absolute inset-0 rounded-full border-2 border-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 rounded-full border-2 border-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               
               {/* Team Member Details */}
               <div className="text-center">
-                <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-1 transition-colors duration-300 group-hover:text-blue-600">
+                <h3 className="text-xl md:text-2xl font-bold text-green-900 mb-1 transition-colors duration-300 group-hover:text-green-600">
                   {member.name}
                 </h3>
                 <div className="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mb-3">

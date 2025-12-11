@@ -129,10 +129,10 @@ const JoyfulLife = () => {
                   key={mentor.id}
                   className="w-full flex-shrink-0 px-4"
                 >
-                  <div className="bg-gray-50 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                  <div className="bg-green-900 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                     {/* Mentor Name and Problem */}
                     <div className="mb-6">
-                      <h3 className="text-xl font-bold text-gray-800 mb-2 text-center">
+                      <h3 className="text-xl font-bold text-white mb-2 text-center">
                         {mentor.name}
                       </h3>
                       <div className="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full mx-auto block text-center">
@@ -142,7 +142,7 @@ const JoyfulLife = () => {
                     
                     {/* Description */}
                     <div className="mb-6">
-                      <p className="text-gray-600 leading-relaxed text-center">
+                      <p className="text-white leading-relaxed text-center">
                         {mentor.description}
                       </p>
                     </div>
@@ -151,11 +151,11 @@ const JoyfulLife = () => {
                     <div className="flex flex-col items-center justify-center space-y-3">
                       <div className="flex items-center">
                         <StarRating rating={mentor.rating} />
-                        <span className="ml-2 text-sm font-medium text-gray-700">
+                        <span className="ml-2 text-sm font-medium text-white">
                           {mentor.rating}.0
                         </span>
                       </div>
-                      <div className="text-sm font-medium text-gray-700">
+                      <div className="text-sm font-medium text-white">
                         {mentor.students.toLocaleString()}+ students
                       </div>
                     </div>
@@ -203,11 +203,11 @@ const JoyfulLife = () => {
           {mentors.map((mentor) => (
             <div
               key={mentor.id}
-              className="bg-gray-50 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="bg-green-900 rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
               {/* Mentor Name and Problem */}
               <div className="mb-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                <h3 className="text-xl font-bold text-white mb-2">
                   {mentor.name}
                 </h3>
                 <div className="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
@@ -217,7 +217,7 @@ const JoyfulLife = () => {
               
               {/* Description */}
               <div className="mb-6">
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   {mentor.description}
                 </p>
               </div>
@@ -226,11 +226,11 @@ const JoyfulLife = () => {
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
                   <StarRating rating={mentor.rating} />
-                  <span className="ml-2 text-sm font-medium text-gray-700">
+                  <span className="ml-2 text-sm font-medium text-white">
                     {mentor.rating}.0
                   </span>
                 </div>
-                <div className="text-sm font-medium text-gray-700">
+                <div className="text-sm font-medium text-white">
                   {mentor.students.toLocaleString()}+ students
                 </div>
               </div>

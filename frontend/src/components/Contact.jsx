@@ -1,6 +1,10 @@
 // Contact.jsx
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Envelope, Phone, MapPin, PaperPlaneRight } from '@phosphor-icons/react';
+import { use } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -71,6 +75,47 @@ const Contact = () => {
     }
   };
 
+  const form = useRef();
+  const [isSent, setIsSent] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs.sendForm(
+      "service_rjt3scg",
+      "template_i5avc9a",
+      form.current,
+      "wo09g9Uaa40ctMUYq",
+    )
+    .then(
+      () => {
+        setIsSent(true);
+        form.current.reset();
+        toast.success("Message sent successfully!", {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          theme: "dark",
+        });
+      },
+      (error) => {
+        toast.error("Error sending Message.", error);
+        toast.error("Failed to send message. Please try again.", {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          theme: "dark",
+        });
+      }
+    )
+  }
+
   return (
     <div className="py-20 bg-gray-200 px-6 md:px-12 lg:px-38">
       <div className="container mx-auto">
@@ -132,7 +177,7 @@ const Contact = () => {
           
           {/* Right Side - Contact Form */}
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <form onSubmit={handleSubmit}>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
                 {/* Your Name */}

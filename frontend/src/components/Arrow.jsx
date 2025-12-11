@@ -17,7 +17,7 @@ const Arrow = () => {
     left: 0,
     height: '100%',
     width: '50%',
-    background: '#3b82f6',
+    background: '#ffffff',
     transform: 'skewY(30deg)',
   };
 
@@ -28,7 +28,7 @@ const Arrow = () => {
     right: 0,
     height: '100%',
     width: '50%',
-    background: '#3b82f6',
+    background: '#ffffff',
     transform: 'skewY(-30deg)',
   };
 
